@@ -43,3 +43,4 @@ import (
 )
 ```
 
+Short variable notation is a big part of how Go has the feel of a dynamic language.
