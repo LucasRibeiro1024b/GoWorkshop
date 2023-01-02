@@ -14,7 +14,7 @@ go build main.go
 Go was created by a team from Google. Go is a language that has the feel dynamic languages such as JavaScript and PHP and the performance and efficiency of strongly typed languages as C++ and Java.
 
 - compiled
-- memory safaty
+- memory safety
 - channel-based concorrency
 
 Go is written in text files and then compiled to machine code packaged into a single, standalone executable file. The result is self-contained meaning it doesn't need nothing more to run. Go programs can be compiled to Windows, Linux, macOS and Android.
@@ -44,3 +44,11 @@ import (
 ```
 
 Short variable notation is a big part of how Go has the feel of a dynamic language.
+
+### Shorthand Operator
+There are a few shorthand assignment operators when you want to perform operations to an existing value with its own value. For example:
+
+- --: Reduce a number by 1
+- ++: Increase a number by 1
+- +=: Add and assign
+- -=: Subtract and assign

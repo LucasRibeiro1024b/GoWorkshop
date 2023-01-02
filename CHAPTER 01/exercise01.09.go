@@ -31,4 +31,9 @@ func main() {
 	if remainder == 0 {
 		fmt.Println("With this visit, you've earned a reward.")
 	}
+
+	givenName := "Ana"
+	familyName := "Beatriz"
+	fullName := givenName + " " + familyName
+	fmt.Println("Hello,", fullName)
 }
